@@ -1,0 +1,12 @@
+.footerLogo{
+    position: absolute;
+    width: 12vw;
+    left: 20%;
+    margin-top: 0.6vw;
+}
+
+.footer{
+    height: 5.2vw;
+    background-color: #414f6b;
+    margin-top: -5px;
+}

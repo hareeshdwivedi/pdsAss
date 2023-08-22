@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+html,
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+
+.background1{
+
+   width: 100vw;
+   z-index: 1;
+    
+}
+
+.navbar{
+    position: absolute;
+    right: 20.2vw;
+    top: 1.3vw;
+    display: flex;
+    z-index: 2;
+}
+
+a{
+    font-family: "Lato", sans serif;
+    margin-left: 3.4vw;
+}
+
+a.linksFirstDiv{
+    font-size: 0.9vw;
+    color: white;
+}
+
+a.linksFirstDiv:hover {
+   color: rgb(205, 205, 205);
+   transition: 0.5s;
+  }
+
+.background2{
+    width: 100%;
+    
+}
+
+
+.navSec{
+    position: absolute;
+    right: 20.2vw;
+    display: flex;
+    z-index: 2;
+}
+
+
+a.linksSecDiv{
+   font-size: 0.9vw;
+   margin-top: 1.5vw;
+   color: #414f6b;
+}
+
+a.linksSecDiv:hover {
+    color: rgb(0, 0, 0);
+    transition: 0.5s;
+   }
+
+.background3{
+    width: 100vw;
+}
+
+.navThird{
+    position: absolute;
+    left: 18vw;
+    margin-top: 11.26vw;
+    display: flex;
+    z-index: 2;
+}
+
+a.linksThirdDiv{
+    font-size: 0.9vw;
+    color: #b0b4be;
+    text-decoration: none;
+    cursor: pointer;
+    border: 0.7vw solid transparent;
+}
+
+a.linksThirdDiv:hover {
+    color: #414f6b;
+    background-color: #d0d0d0;
+    border: 0.7vw solid #d0d0d0;
+    text-decoration:underline;
+   }
+
+
